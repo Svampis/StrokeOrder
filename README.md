@@ -29,16 +29,6 @@ This software uses the following third-party resources:
 - Description: A simple C library for parsing and rendering SVG files.
 - Source: [https://github.com/memononen/nanosvg](https://github.com/memononen/nanosvg)
 
-License excerpt:
-> Permission is granted to anyone to use this software for any purpose,
-> including commercial applications, and to alter it and redistribute it
-> freely, subject to the following restrictions:
-> 1. The origin of this software must not be misrepresented; you must not
->    claim that you wrote the original software.
-> 2. Altered source versions must be plainly marked as such, and must not
->    be misrepresented as being the original software.
-> 3. This notice may not be removed or altered from any source distribution.
-
 ---
 
 ### KanjiVG
@@ -48,10 +38,4 @@ License excerpt:
 - Source: [https://kanjivg.tagaini.net](https://kanjivg.tagaini.net)
 
 In this software, the KanjiVG SVG files have been modified with renamed file names and decreased stroke widths.
-
-License requirements:
-- Give proper credit to the original author (Ulrich Apel).  
-- Indicate if you modified the data.  
-- Share derivative data under the same license if redistributed.
-
 
