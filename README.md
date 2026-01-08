@@ -26,7 +26,7 @@ In addition, you can also pass in a -v flag and an -s [n] flag after the kanji. 
 
 This software uses the following third-party resources:
 
-### NanoSVG (TinySVG)
+### NanoSVG
 - Author: Mikko Mononen
 - License: zlib/libpng-style license
 - Description: A simple C library for parsing and rendering SVG files.
