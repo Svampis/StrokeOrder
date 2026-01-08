@@ -18,6 +18,9 @@ To view a stroke order animation of some kanji, simply run the `strokeorder` com
 ```sh
 strokeorder 猫
 ```
+In addition, you can also pass in a -v flag and an -s [n] flag after the kanji. The -v flag will cause the program to print out a static stroke order diagram, with the start of the stroke marked by the stroke number, and the -s [n] flag will scale the image by a factor of [n]. [n] is a decimal value like 1.332.
+
+![Flags](static.png)
 
 ## Credits
 
