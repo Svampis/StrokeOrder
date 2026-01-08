@@ -163,6 +163,7 @@ int main(int argc, char **argv)
 		nsvgDeleteRasterizer(rasterizer);
 		free(img_buffer);
 		free(bitmap);
+		nsvgDelete(image);
 		return 0;
 	}
 	printf("\033[2J\033[H");
@@ -283,6 +284,7 @@ int main(int argc, char **argv)
 	nsvgDeleteRasterizer(rasterizer);
 	free(img_buffer);
 	free(bitmap);
+	nsvgDelete(image);
 	
 	printf("\033[%d;1H", lowest_pixel);
 
