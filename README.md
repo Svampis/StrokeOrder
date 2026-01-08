@@ -26,6 +26,7 @@ strokeorder 猫 -s 0.5
 
 # prints a static stroke order diagram at 1.5 times usual size
 strokeorder 猫 -v -s 1.5
+```
 ![Flags](static.png)
 
 ## Credits
