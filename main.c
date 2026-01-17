@@ -109,7 +109,7 @@ int main(int argc, char **argv)
 			memset(bitmap, 0, out_height * out_width);
 			nsvgRasterize(rasterizer, image, 0, 0, scale, img_buffer, out_width, out_height, out_width * 4);
 
-			for(int i = highest_pixel; i < lowest_pixel; i++)
+			for(int i = highest_pixel; i <= lowest_pixel; i++)
 			{
 				for(int j = 0; j < out_width; j++)
 				{
@@ -135,7 +135,7 @@ int main(int argc, char **argv)
 			bitmap[(int)start_y * out_width + (int)(start_x)] = 2;
 		
 			printf("Stroke %d\n\n", stroke_num);	
-			for(int i = highest_pixel; i < lowest_pixel; i++)
+			for(int i = highest_pixel; i <= lowest_pixel; i++)
 			{
 				for(int j = 0; j < out_width; j++)
 				{
